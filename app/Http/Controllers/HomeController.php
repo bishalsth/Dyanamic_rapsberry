@@ -71,6 +71,7 @@ class HomeController extends Controller
        
             $request->file->move(public_path('img'), $fileName);
             $employee->file = $fileName;
+            $employee->job_type= $data['job_type'];
             $employee->name= $data['name'];
             $employee->email=$data['email'];
             $employee->phone=$data['phone'];

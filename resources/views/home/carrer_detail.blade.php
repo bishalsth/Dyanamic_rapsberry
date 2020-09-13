@@ -89,7 +89,7 @@
        
 
 
-       <div class="container border mt-5">
+       <div class="container border mt-5 mb-5">
        <div class="row">
        <div class="col-md-12">
        
@@ -98,6 +98,8 @@
        <form action="{{url('/apply-cv')}}" method="post" id="apply_job" name="apply_job" enctype="multipart/form-data"> 
        {{ csrf_field()}}
              <div class="form-group">
+
+             <input type="hidden" name="job_type" value="{{$job->v_name}}" >
               
             <label for="">Your Name</label>
               <input class="form-control" type="text" name="name" id="name" >
@@ -116,7 +118,7 @@
              
              </div>
               
-             <b><label class="mt-5" for="">Your CV: </label></b>
+             <b><label class="mt-5" for="">Your CV: <b><span class="text-danger">(Only in PDF format)</span></b> </label></b>
             <input class="ml-5" type="file" id="file" name="file">
 
               <!-- <p> <a href="#" class="btn btn-success mt-2">Apply</a></p> -->

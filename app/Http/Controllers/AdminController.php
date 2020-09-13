@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Session;
 use App\Job;
+use App\Employee;
 
 
 class AdminController extends Controller
@@ -106,7 +107,8 @@ class AdminController extends Controller
 
 
     public function viewApplyJob(){
-        return view('admin.job.view_applied_job');
+        $applied= Employee::get();
+        return view('admin.job.view_applied_job')->with(compact('applied'));
     }
 
 }
