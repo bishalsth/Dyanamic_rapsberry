@@ -60,7 +60,7 @@
 
                   
                   
-                  <td class="center"> <a id ="delCat" href="{{url('/admin/delete-apply/'.$apply->id)}}" class="btn btn-danger btn-mini">Delete</a></td>
+                  <td class="center"> <a id ="delCat" href="{{url('/admin/delete-applied-job/'.$apply->id)}}" class="btn btn-danger btn-mini">Delete</a></td>
                 </tr>
                 @endforeach
                 

@@ -12,9 +12,9 @@
         
                 </div>
             </div>
-            <div class="row mt-6">
+            <div class="row mt-6 border mb-5">
                
-                <div class="col-md-6 text-secondary border" style="text-align: center;">
+                <div class="col-md-6 text-secondary " style="text-align: center;">
                     <h4 class="mt-5">Contact Information</h4>
         
                     <p style="font-size: 15px;">Have any querry! Contact Us.</p>
@@ -40,18 +40,18 @@
                   
         
                 </div>
-                <div class="col-md-6 mb-5 border" >
+                <div class="col-md-6 mb-5 " >
         
                     <form>
                         <div class="form-group mt-5 text-secondary" style="font-size: 15px;">
-                            <label for="">Name *</label>
+                            <label for="">Name <span class="text-danger">*</span></label>
                           
                           <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name">
                           
                         </div>
         
                         <div class="form-group text-secondary">
-                            <label for="">Email *</label>
+                            <label for="">Email <span class="text-danger">*</span></label>
                           
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
                           
@@ -64,7 +64,7 @@
                           
                         </div>
                         <div class="form-group text-secondary">
-                            <label for="exampleFormControlTextarea1">Message *</label>
+                            <label for="exampleFormControlTextarea1">Message <span class="text-danger">*</span></label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                           </div>
                         </form>

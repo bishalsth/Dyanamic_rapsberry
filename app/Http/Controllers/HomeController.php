@@ -77,7 +77,7 @@ class HomeController extends Controller
             $employee->phone=$data['phone'];
             $employee->save();
 
-            return redirect('/career'); 
+            return redirect('/career')->with('flash_message_success','You have successfully the applied Job'); 
        
             
         }

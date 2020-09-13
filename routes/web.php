@@ -38,6 +38,8 @@ Route::get('/admin/view-job','AdminController@viewJob');
 Route::get('/admin/delete-job/{id}','AdminController@deletJob');
 Route::match(['get','post'],'/admin/edit-job/{id}','AdminController@editJob');
 Route::get('/admin/view-applied-job','AdminController@viewApplyJob');
+Route::get('/admin/delete-applied-job/{id}','AdminController@deletApplyJob');
+
 
 Route::get('/logout','AdminController@logout');
 // admin section Start ends

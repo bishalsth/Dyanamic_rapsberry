@@ -111,4 +111,13 @@ class AdminController extends Controller
         return view('admin.job.view_applied_job')->with(compact('applied'));
     }
 
+    public function deletApplyJob($id=null){
+        if(!empty($id)){
+            Employee::where(['id'=>$id])->delete();
+            return redirect()->back()->with('flash_message_success','Applied Job deleted Successfully ');
+        
+        }
+
+    }
+
 }

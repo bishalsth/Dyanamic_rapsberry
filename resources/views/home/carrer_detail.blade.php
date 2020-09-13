@@ -93,7 +93,7 @@
        <div class="row">
        <div class="col-md-12">
        
-       <h4 class="text-center text-danger"> Form</h4>
+       <h4 class="text-center text-danger mt-2">Apply Form</h4>
        
        <form action="{{url('/apply-cv')}}" method="post" id="apply_job" name="apply_job" enctype="multipart/form-data"> 
        {{ csrf_field()}}
