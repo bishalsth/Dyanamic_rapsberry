@@ -25,6 +25,8 @@ Route::get('/recruitment','HomeController@recruitment');
 Route::get('/employee','HomeController@employee');
 Route::get('/candidate','HomeController@candidate');
 Route::get('/management','HomeController@management');
+Route::get('/carrer-detail/{id}','HomeController@viewJObDetail');
+Route::post('/apply-cv','HomeController@applyCv');
 
 // User View Part ends
 
@@ -35,6 +37,8 @@ ROute::match(['get','post'],'/admin/add-job','AdminController@addjob');
 Route::get('/admin/view-job','AdminController@viewJob');
 Route::get('/admin/delete-job/{id}','AdminController@deletJob');
 Route::match(['get','post'],'/admin/edit-job/{id}','AdminController@editJob');
+Route::get('/admin/view-applied-job','AdminController@viewApplyJob');
+
 Route::get('/logout','AdminController@logout');
 // admin section Start ends
 

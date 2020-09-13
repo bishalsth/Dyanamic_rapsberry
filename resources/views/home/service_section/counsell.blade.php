@@ -2,10 +2,10 @@
 @section('content')
 
      
-<div class="container-fluid bg-danger text-white">
+<div class="container-fluid bg-white text-white">
           <div class="row ">
               <div class="col-md-12 mt-5">
-                  <h1 class="text-center">Counseling Service</h1>
+                  <h3 class="text-center text-dark">Counseling Service</h3>
               </div>
             
           </div>
@@ -21,7 +21,7 @@
           <div class="row " style="text-align: left;">
               <div class="container">
                   <div class="row mt-5">
-                    <div class="col-md-12">
+                    <div class="col-md-12 text-dark">
 
                         <h3><b><u>Description</u></b></h3>
                         <p style="text-align: justify;">

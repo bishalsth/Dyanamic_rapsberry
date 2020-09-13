@@ -10,6 +10,7 @@ use App\Job;
 
 class AdminController extends Controller
 {
+
     public function login(Request $request)
     
     {
@@ -101,6 +102,11 @@ class AdminController extends Controller
         }
         $job = Job::where(['id'=>$id])->first();
         return view('admin.job.edit_job')->with(compact('job'));
+    }
+
+
+    public function viewApplyJob(){
+        return view('admin.job.view_applied_job');
     }
 
 }

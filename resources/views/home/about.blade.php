@@ -42,21 +42,21 @@
 
   <!-- Our Vision -->
 
-  <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 bg-success">
+  <div class="container-fluid ">
+    <div class="row" >
+        <div class="col-md-12   bg-light">
             <div class="container">
                 <!-- <h2 class="text-white mt-2 text-center">Our Vision</h2> -->
-            <div class="row mt-2 mb-2">
+            <div class="row mt-5 mb-5">
 
                 <div class="col-md-6">
 
-                    <h4 class="mt-5 text-white "> Our Vision</h4>
-                    <p class="text-white  wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
+                    <h4 class="mt-5 text-dark "> Our Vision</h4>
+                    <p class="text-dark  wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
 
 
                         Raspberry is striving to be…..
-                        <ul class="text-white">
+                        <ul class="text-dark">
                             <li>    The best outsourcing service
                                 provider in Nepal</li>
                                 <li>  Best place to work with highly
@@ -79,10 +79,10 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 bg-light">
+        <div class="col-md-12  bg-success">
             <div class="container">
                 <!-- <h2 class="text-black mt-2 text-center">Our Mission</h2> -->
-            <div class="row mt-2 mb-2">
+            <div class="row mt-5 mb-5">
 
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
                     <img src="{{asset('img/frontend_images/mission.jpg')}}" height="300px" width="100%" alt="">
@@ -118,20 +118,20 @@
 
    <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 bg-success">
+        <div class="col-md-12 bg-light">
             <div class="container">
                 <!-- <h2 class="text-white mt-2 text-center">Our Objective</h2> -->
-            <div class="row mt-2 mb-2">
+            <div class="row mt-5 mb-5">
 
                 <div class="col-md-6">
 
-                    <h4 class="text-white">Our Objective</h4>
-                    <p class="text-white  wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
+                    <h4 class="text-dark ">Our Objective</h4>
+                    <p class="text-dark  wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
 
 
 
 
-                        <ul class="text-white">
+                        <ul class="text-dark">
 
                             <li>
                                 Streamlining employee-related
@@ -164,10 +164,10 @@
 
  <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 bg-light">
+        <div class="col-md-12 bg-success">
             <div class="container">
                 <!-- <h2 class="text-black mt-2 text-center">Our Merits</h2> -->
-            <div class="row mt-2 mb-2">
+            <div class="row mt-5 mb-5">
 
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
                     <img src="{{asset('img/frontend_images/merit.jpg')}}" height="300px" width="100%" alt="">

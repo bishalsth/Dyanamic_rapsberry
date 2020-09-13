@@ -62,30 +62,46 @@ $(document).ready(function(){
 	});
 
 	//Add Product Validation
-	$("#add_product").validate({
+	$("#add_job").validate({
 		rules:{
-			category_id:{
+			v_name:{
 				required:true
-			},
-			product_name:{
-				required:true,
-				
-			},
-			product_code:{
-				required:true,
-				
-			},
-			product_color:{
-				required:true,
-				
 			},
 			description:{
 				required:true,
 				
 			},
-			product_price:{
+			job_spec:{
 				required:true,
-				number:true,
+				
+			},
+			job_category:{
+				required:true,
+				
+			},
+			total_req:{
+				required:true,
+				
+			},
+			educational_qal:{
+				required:true,
+				
+			},
+			experience:{
+				required:true,
+				
+			},type:{
+				required:true,
+				
+			},gender:{
+				required:true,
+				
+			},job_type:{
+				required:true,
+				
+			},salary:{
+				required:true,
+				
 			}
 		},
 		errorClass: "help-inline",

@@ -44,16 +44,24 @@
                 <label class="control-label">Description</label>
                 <div class="controls">
                   
-                  <textarea     name="description" id="description"></textarea>
+                  <textarea     name="description" id="description" rows="6"></textarea>
                 </div>
               </div>
            
+              <div class="control-group">
+              <label class="control-label">Job Specification</label>
+                <div class="controls">
+                  
+                  <textarea    name="job_spec" id="job_spec" rows="6"></textarea>
+                </div>
+              </div>
+<!--            
               <div class="control-group">
                 <label class="control-label">Job Specification</label>
                 <div class="controls">
                   <input type="text"     name="job_spec" id="job_spec">
                 </div>
-              </div>
+              </div> -->
 
               <div class="control-group">
                 <label class="control-label">Job Caategory</label>

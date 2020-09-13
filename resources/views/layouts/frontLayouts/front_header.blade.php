@@ -31,10 +31,26 @@
         
                         </li>
         
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="{{url('/service')}}" class="nav-link px-3 " style="color:black;">SERVICES</a>
         
-                        </li>
+                        </li> -->
+
+                        <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle text-dark" href="{{url('/service')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        SERVICES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="{{url('/counseling')}}">Counseling Service</a>
+          <a class="dropdown-item" href="{{url('/staff')}}">Staff Outsourcing Service</a>
+          <a class="dropdown-item" href="{{url('/recruitment')}}">Recruitment Services</a>
+          <a class="dropdown-item" href="{{url('/employee')}}">Employee Record</a>
+          <a class="dropdown-item" href="{{url('/candidate')}}">Candidate Assessment</a>
+          <a class="dropdown-item" href="{{url('/management')}}">Management Consulting</a>
+
+          
+        </div>
+      </li>
         
                         <li class="nav-item">
                             <a href="{{url('/career')}}" class="nav-link px-3 " style="color:black;">CAREER</a>

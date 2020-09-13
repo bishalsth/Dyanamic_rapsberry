@@ -4,7 +4,7 @@
 
 
        
-<div class="container-fluid bg-danger text-white">
+<div class="container-fluid bg-light text-dark">
           <div class="row ">
               <div class="col-md-12 mt-5">
                   <h1 class="text-center">Recruitment Services</h1>

@@ -10,6 +10,15 @@
       </ul>
     </li>
 
+    <li class="submenu"> <a href="#"><i class="icon icon-th-list"></i> <span>Applied Job</span> <span class="label label-important">1</span></a>
+      <ul>
+        <li><a href="{{url('/admin/view-applied-job')}}">View Applied Job</a></li>
+        <!-- <li><a href="{{url('/admin/view-job')}}">View JOBS</a></li> -->
+    
+      </ul>
+    </li>
+
+
    
    
  

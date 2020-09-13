@@ -34,9 +34,7 @@
                   <th>JOB ID</th>
 
                  <th> Vacancy Name</th>
-                 <th> Description</th>
-
-                 <th> Job Specification</th>
+              
 
                  <th> Job Category</th>
 
@@ -56,8 +54,7 @@ v
                 <tr class="gradeX">
                   <td>{{$job->id}}</td>
                   <td>{{$job->v_name}}</td>
-                  <td>{{$job->description}}</td>
-                  <td>{{$job->job_spec}}</td>
+              
                   <td>{{$job->job_category}}</td>
                   <td>{{$job->total_req}}</td>
                   <td>{{$job->educational_qal}}</td>
