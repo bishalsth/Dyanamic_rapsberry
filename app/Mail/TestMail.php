@@ -28,12 +28,15 @@ class TestMail extends Mailable
      */
     public function build()
     {
-        $name = $this->data['name'];
-        return $this->subject('Subject email')
-                ->view('email_template',compact('name'))
-                ->attach($this->data['image']->getRealPath(),[
-                    'as' =>$this->data['image']->getClientOriginalName()
+        $nama = $this->data['nama'];
+        $email = $this->data['email'];
+        $contact = $this->data['contact'];
+        $messages = $this->data['messages'];
 
-                ]);
+        return $this->subject('CV for JOB')
+                    ->view('email_template',compact('nama','email','contact','messages'))
+                    ->attach($this->data['image']->getRealPath(),[
+                        'as' => $this->data['image']->getClientOriginalName()
+                    ]);
     }
 }

@@ -57,7 +57,7 @@
         
                         </li>
                         <li class="nav-item">
-                            <a href="{{url('/contact')}}" class="nav-link px-3 " style="color:black;">CONTACT US</a>
+                            <a href="{{url('/email')}}" class="nav-link px-3 " style="color:black;">CONTACT US</a>
         
                         </li>
         

@@ -42,20 +42,8 @@ Route::get('/admin/delete-applied-job/{id}','AdminController@deletApplyJob');
 
 
 Route::get('/logout','AdminController@logout');
-// admin section Start ends
 
 
-// INSERT INTO `jobs`(`id`, 
-// `v_name`,
-//  `description`, `
-//  job_spec`, 
-//  `job_category`, 
-//  `total_req`,
-//   `educational_qal`,
-//    `experience`, 
-//    `type`,
-//     `gender`,
-//      `job_type`, 
-//      `salary`, 
-//      `created_at`, 
-//      `updated_at`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10],[value-11],[value-12],[value-13],[value-14])
+
+Route::get('/email','EmailController@index');
+Route::post('/email/send','EmailController@send');
