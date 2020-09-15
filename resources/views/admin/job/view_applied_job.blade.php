@@ -54,13 +54,13 @@
                   <td>{{$apply->name}}</td>
                   <td>{{$apply->email}}</td>
                   <td>{{$apply->phone}}</td>
-                  <td><a href="{{asset('/img/'.$apply->file)}}" download="{{$apply->file}}" > Download</a></td>
+                  <td><a href="{{asset('/img/'.$apply->file)}}" class="btn btn-success" > View</a></td>
                 
                  
 
                   
                   
-                  <td class="center"> <a id ="delCat" href="{{url('/admin/delete-applied-job/'.$apply->id)}}" class="btn btn-danger btn-mini">Delete</a></td>
+                  <td class="center"> <a class="btn btn-primary" href="{{asset('/img/'.$apply->file)}}" download="{{$apply->file}}" > Download</a> |<a id ="delCat" href="{{url('/admin/delete-applied-job/'.$apply->id)}}" class="btn btn-danger btn-mini">Delete</a></td>
                 </tr>
                 @endforeach
                 

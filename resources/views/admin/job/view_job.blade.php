@@ -42,11 +42,9 @@
                  <th> Educaional Qualification</th>
                  <th> Experience</th>
                  <th> Type of industry</th>
-                 <th> Preferred Gender</th>
-                 <th> Jobe Type</th>
-                 <th> Salary</th>
+                 
                  <th>Action</th>
-v
+
                 </tr>
               </thead>
               <tbody>
@@ -60,9 +58,7 @@ v
                   <td>{{$job->educational_qal}}</td>
                   <td>{{$job->experience}}</td>
                   <td>{{$job->type}}</td>
-                  <td>{{$job->gender}}</td>
-                  <td>{{$job->job_type}}</td>
-                  <td>{{$job->salary}}</td>
+                 
                  
 
                   

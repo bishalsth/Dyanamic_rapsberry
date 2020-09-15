@@ -26,12 +26,18 @@
                   
                         <p style="font-size: 12px;">Our Social Links</p>
                         <p class="text-white">
-                            <i class="fab fa-facebook-f ml-2"></i>
+                         
+                         <a href="https://www.facebook.com/RaspberrySolution">    <i class="fab fa-facebook-f ml-2"></i></a>
                         
 
-                         <i class="fab fa-instagram ml-2"></i>
+                         <a href="https://www.instagram.com/raspberrysolution/"> <i class="fab fa-instagram ml-2"></i></a>
 
-                            <i class="fab fa-linkedin-in ml-2"></i></p>
+                       
+
+
+                  <a href=" https://www.linkedin.com/in/raspberry-solution-recruitment-and-outsourcing-company-in-nepal/"> <i class="fab fa-linkedin-in ml-2"></i></a>
+                            
+                            </p>
 
 
          </div>
