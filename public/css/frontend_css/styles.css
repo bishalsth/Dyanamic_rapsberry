@@ -4325,11 +4325,12 @@ input[type=button].btn-block {
   color: #fff;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: black;
+  border-color: black;
 }
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url('../../img/frontend_images/triple.jpg');
+/* background-color:#bd1243; */
 }
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5);
@@ -10260,7 +10261,7 @@ header.masthead h1 {
 
 .bg_career {
   /* The image used */
-  background-image: url("../../img/frontend_images/back1.jpg");
+  background-image: url("../../img/frontend_images/images/hand-2722108_1920.jpg");
 
   /* Full height */
   height: 50%; 
@@ -10274,17 +10275,34 @@ header.masthead h1 {
 
 
 
-.bg_service {
+.bg_about {
   /* The image used */
-  background-image: url("../../img/frontend_images/busines.jpg");
+  background-image: url("../../img/frontend_images/new/About US Banner.jpg");
 
   /* Full height */
-  height: 50%; 
+  height: 70%; 
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.dropdown-item:hover{
+  background-color:#bb1545;
+}
+
+
+#fb:hover{
+  background-color: blue;
+}
+
+#insta:hover{
+  background-color: var(--purple);
+}
+
+#linki:hover{
+  background-color: #0e76a8;
 }
 
 

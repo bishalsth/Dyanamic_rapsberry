@@ -3,7 +3,7 @@
 
 
 
-<div class="bg_career"></div>
+<div class="bg_about"></div>  
 
       
 
@@ -13,12 +13,12 @@
 </div> 
 
 <!-- About-->
-<div class="container-fluid">
+<div class="container-fluid ">
     <div class="row">
         <div class="col-md-12 bg-danger">
             <div class="container ">
-                <h4 class="text-white mt-5 text-center wow bounce" data-wow-delay="0.2s" >About us</h4>
-            <p class="text-white mb-5 wow zoomInUp"  data-wow-delay="0.3s "style="text-align: justify; font-size:15px;">
+                <h4 class="text-white mt-5 text-center "  >About us</h4>
+            <p class="text-white mb-5 wow zoomInUp"  data-wow-delay="0.3s " style="text-align: justify; font-size:15px;">
 
 
                 Raspberry Solution Pvt. Ltd (RSPL) is a HR and Management Consulting Organization
@@ -67,7 +67,7 @@
                         </p>
                 </div>
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/counsel.jpeg')}}" height="300px" width="100%" alt="">
+                    <img src="{{asset('img/frontend_images/images/vision-2372177_1920.jpg')}}" height="300px" width="100%" alt="">
                 </div>
 
             </div>
@@ -79,13 +79,13 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12  bg-success">
+        <div class="col-md-12   text-dark">
             <div class="container">
                 <!-- <h2 class="text-black mt-2 text-center">Our Mission</h2> -->
             <div class="row mt-5 mb-5">
 
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/mission.jpg')}}" height="300px" width="100%" alt="">
+                    <img src="{{asset('img/frontend_images/new/Our Mission.jpg')}}" height="300px" width="100%" alt="">
                 </div>
 
                 <div class="col-md-6 mt-5">
@@ -150,7 +150,7 @@
                         </p>
                 </div>
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/objective.jpeg')}}" height="300px" width="100%" alt="">
+                    <img src="{{asset('img/frontend_images/images/skills-3371153_1920.jpg')}}" height="300px" width="100%" alt="">
                 </div>
 
             </div>
@@ -164,13 +164,13 @@
 
  <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 bg-success">
+        <div class="col-md-12  text-dark">
             <div class="container">
                 <!-- <h2 class="text-black mt-2 text-center">Our Merits</h2> -->
             <div class="row mt-5 mb-5">
 
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/merit.jpg')}}" height="300px" width="100%" alt="">
+                    <img src="{{asset('img/frontend_images/new/Our Merits.jpg')}}" height="300px" width="100%" alt="">
                 </div>
 
                 <div class="col-md-6 mt-1">

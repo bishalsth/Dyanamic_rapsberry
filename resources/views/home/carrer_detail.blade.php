@@ -102,24 +102,24 @@
              <input type="hidden" name="job_type" value="{{$job->v_name}}" >
               
             <label for="">Your Name</label>
-              <input class="form-control" type="text" name="name" id="name" >
+              <input class="form-control" type="text" name="name" id="name" required/>
              </div>
 
               <div class="form-group">
               
               <label for="">Your Email address</label>
-              <input class="form-control" type="email" name="email" id="email">
+              <input class="form-control" type="email" name="email" id="email" required/>
               </div>
 
              
              <div class="form-group">
              <label for="">Contact Number</label>
-              <input class="form-control" type="text" name="phone" id="phone">
+              <input class="form-control" type="text" name="phone" id="phone" required/>
              
              </div>
               
              <b><label class="mt-5" for="">Your CV: <b><span class="text-danger">(Only in PDF format)</span></b> </label></b>
-            <input class="ml-5" type="file" id="file" name="file">
+            <input class="ml-5" type="file" id="file" name="file" required/>
 
               <!-- <p> <a href="#" class="btn btn-success mt-2">Apply</a></p> -->
             <div class="form-group">

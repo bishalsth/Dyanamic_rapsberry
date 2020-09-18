@@ -6,7 +6,8 @@
             <div class="row">
                 <div class="col-md-12 mt-5 mb-5 ">
                     <section >
-                        <iframe width="100%" height="300px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9706.30219324354!2d85.31796209174713!3d27.71556926579691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191aaaaaaaab%3A0xa852eefd9cf32c10!2sASTU%20RESEARCH%20FOUNDATION%20TRUST!5e0!3m2!1sen!2snp!4v1599366808478!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe width="100%" height="300px"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7065.950475711937!2d85.3376161!3d27.6871602!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19ad4c7f99e1%3A0x3f81fa5fbbe7eba4!2sRaspberry%20Solution%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1600324528072!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <!-- <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9706.30219324354!2d85.31796209174713!3d27.71556926579691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb191aaaaaaaab%3A0xa852eefd9cf32c10!2sASTU%20RESEARCH%20FOUNDATION%20TRUST!5e0!3m2!1sen!2snp!4v1599366808478!5m2!1sen!2snp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
                     </section>
         
                 </div>
@@ -28,13 +29,18 @@
         
                    <p style="font-size: 15px;"> FOLLOW US</p>
         
-                
-                            <i class="fab fa-facebook"></i>
+                  
+                   <a href="https://www.facebook.com/RaspberrySolution">    <i class="fab fa-facebook-f text-dark
+                         "></i></a>
+                        
+
+                         <a href="https://www.instagram.com/raspberrysolution/"> <i class="fab fa-instagram text-dark"></i></a>
+
                        
-                            <i class="fab fa-instagram"></i>
-                     
-                            <i class="fab fa-linkedin"></i>
-                       
+
+
+                  <a href=" https://www.linkedin.com/in/raspberry-solution-recruitment-and-outsourcing-company-in-nepal/"> 
+                  <i class="fab fa-linkedin text-dark"></i></a>
         
                   
         
@@ -53,7 +59,7 @@
 </div>
         @endif  
         
-                <form action="{{url('/email/send')}}" method="post" enctype="multipart/form-data">
+                <form action="{{url('/email/send')}}" method="post" enctype="multipart/form-data" name="cv" id="cv">
     {{csrf_field()}}
     
                         <div class="form-group mt-5 text-secondary" style="font-size: 15px;">
@@ -84,10 +90,10 @@
 
                          <div class="form-group">
                          <label for="">Your CV:     </label>
-                         <input type="file" name="image">
+                         <input type="file" name="image" required/>
                          </div>
 
-                          <input type="submit" class="btn text-white" style="background-color: #b8133f;" value="submit"> 
+                          <input type="submit"   class="btn text-white" style="background-color: #b8133f;" value="submit"> 
                         </form>
                            
         
@@ -113,5 +119,6 @@
     <input type="submit" value="submit">
     
     </form> -->
+  
 
 @endsection

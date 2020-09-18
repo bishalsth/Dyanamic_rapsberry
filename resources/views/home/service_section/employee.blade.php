@@ -15,7 +15,8 @@
              <div class="container">
                  <div class="row">
                     <div class="col-md-12">
-                        <img src="{{asset('img/frontend_images/employee.jpg')}}" width="100%" height="100%" alt="">
+                    
+                        <img  class="ml-5" src="{{asset('img/frontend_images/new/Employee Record.jpg') }}"  width="90%" height="500px" alt="">
                       </div>
                  </div>
              </div>

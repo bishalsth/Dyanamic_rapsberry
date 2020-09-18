@@ -5,7 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Rapsberry</title>
+        <title>@if(!empty($meta_title)){{$meta_title}} @else Rapsberry @endif</title>
+        @if(!empty($meta_description))
+        <meta name="description" content="{{$meta_description}}">
+        @endif
+
+        @if(!empty($meta_keywords))
+        <meta name="keywords" content="{{$meta_keywords}}">
+        @endif
+
+
+
+
+
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
@@ -46,6 +59,8 @@
         <!-- Core theme JS-->
         <script src="{{asset ('js/frontend_js/scripts.js ') }}"></script>
         <script src="{{asset ('js/frontend_js/counter.js ') }}"></script>
+        <script src="{{asset ('js/frontend_js/wow.min.js ') }}"></script>
+        <script src="{{asset ('js/frontend_js/main.js ') }}"></script>
         <script>
             $(".slider").owlCarousel({
               loop: true,

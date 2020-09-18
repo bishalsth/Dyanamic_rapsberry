@@ -11,8 +11,9 @@
                     <div id="carouselExample1" class="carousel slide z-depth-1-half" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img class="d-block w-100" src="{{asset('img/frontend_images/business-idea-1240834.jpg') }} "   height="550px" alt="First slide">
-                            <div class="carousel-caption" style="color:white">
+                          
+                            <img class="d-block w-100" src="{{asset('img/frontend_images/images/business-meeting-5395567_1920.jpg') }} "   height="690px" alt="First slide">
+                            <div class="carousel-caption" style="color:black; font-family: Impact, Charcoal, sans-serif;">
                                 <h1>Ready to Begin Your journey </h1>
                                 <p>We act as an Employer of Record</p>
                           
@@ -20,12 +21,11 @@
                           
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="{{asset('img/frontend_images/resize-15997127001424319503slide2.jpg') }} "  height="550px" alt="Second slide">
-                            <div class="carousel-caption">
+                            <img class="d-block w-100" src="{{asset('img/frontend_images/images/Frpmt.jpg') }} "  height="690px" alt="Second slide">
+                            <div class="carousel-caption" style="color:black; font-family: Impact, Charcoal, sans-serif;">
                                <h1>  Welcome to Raspberry</h1>
                                 <p>We Provide Wide Range of Business Solutions
-                                    Human Resource Services
-                                    Services With Solution!</p>
+                                   </p>
                                 
                                    
                                    
@@ -34,8 +34,8 @@
                           
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-100" src="{{asset('img/frontend_images/resize-1599712980310318668slide1.jpg') }} "  height="550px" alt="Third slide">
-                            <div class="carousel-caption ">
+                            <img class="d-block w-100" src="{{asset('img/frontend_images/images/Front Human resource.jpg') }} "  height="690px" alt="Third slide">
+                            <div class="carousel-caption" style="color:black; font-family: Impact, Charcoal, sans-serif;">
                                 <h1>Human Resource Services </h1>
                                 <p>Services With Solution</p>
                           
@@ -62,9 +62,16 @@
                     
            
         </div>
+
+        <!-- slider ends -->
+
+
+
+
+
        
         <!-- About-->
-        <section class="page-section  mt-5" id="about" style="background-color:brown">
+        <section class="page-section  " id="about" style="background-color:brown">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
@@ -110,7 +117,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
                    <div class="row">
                     <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/counsel.jpeg') }}" height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/new/Counseling Ser.jpg') }}" height="200px;" alt="Card image cap">
                             <div class="card-body " style="text-align: center;">
                                 <h6 class="text-dark">Counseling Service</h6>
                             <a href="{{url('/counseling')}}" class="btn text-white mb-5 " style="background-color:#b8133f; font-size:14px;     ">Read More</a>
@@ -121,7 +128,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
         
                        <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/outsourcing.jpeg') }}" height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/images/pexels-fauxels-3184292.jpg') }}" height="200px;" alt="Card image cap">
                             <div class="card-body" style="text-align: center;">
                                 <h6 class="text-dark">
                                     Staff Outsourcing Service</h6>
@@ -133,7 +140,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
         
                        <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/recrutiment.jpeg') }}" height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/images/pexels-oleg-magni-2058130.jpg') }} " height="200px;" alt="Card image cap">
                             <div class="card-body" style="text-align: center;">
                                 <h6 class="text-dark">Recruitment Services</h6>
                             <a href="{{url('/recruitment')}}" class="btn text-white mb-5" style="background-color:#b8133f; font-size:14px;    ">Read More</a>
@@ -152,7 +159,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
                    <div class="row mb-5">
                     <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/employee.jpg') }} " height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/new/Employee Record.jpg') }}" height="200px;" alt="Card image cap">
                             <div class="card-body" style="text-align: center;">
                                 <h6 class="text-dark">Employee Record</h6>
                            <a href="{{url('/employee')}}" class="btn text-white mb-5" style="background-color:#b8133f; font-size:14px; ">Read More</a>
@@ -163,7 +170,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
         
                        <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/assesment.jpg') }} " height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/images/write-593333_1920.jpg') }} " height="200px;" alt="Card image cap">
                             <div class="card-body" style="text-align: center;">
                                 <h6 class="text-dark">Candidate Assessment</h6>
                            <a href="{{url('/candidate')}}" class="btn text-white mb-5" style="background-color:#b8133f; font-size:14px;   ">Read More</a>
@@ -174,7 +181,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
         
                        <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/management.jpeg') }}" height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/images/startup-594090_1920.jpg') }}" height="200px;" alt="Card image cap">
                             <div class="card-body" style="text-align: center;">
                                 <h6 class="text-dark">Management Consulting</h6>
                            <a href="{{url('/management')}}" class="btn text-white mb-5" style="background-color:#b8133f; font-size:14px;  ">Read More</a>

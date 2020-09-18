@@ -14,7 +14,7 @@
              <div class="container">
                  <div class="row">
                     <div class="col-md-12">
-                        <img src="{{asset('img/frontend_images/assesment.jpg')}}" width="100%" height="100%" alt="">
+                        <img src="{{asset('img/frontend_images/images/write-593333_1920.jpg') }} " width="100%" height="100%" alt="">
                       </div>
                  </div>
              </div>
