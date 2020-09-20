@@ -1,8 +1,8 @@
 
-    @extends('layouts.frontLayouts.front_design')
+ @extends('layouts.frontLayouts.front_design')
 @section('content')
 
-<div class="container">
+<div class="container ">
             <div class="row">
                 <div class="col-md-12 mt-5 mb-5 ">
                     <section >
@@ -12,12 +12,26 @@
         
                 </div>
             </div>
-            <div class="row mt-6 border mb-5">
+
+            <div class="row bg-success border ">
+           
+            <div class="col-md-6  text-center text-white mt-2 mb-2">
+            <h5>Contact Information</h5>
+            </div>
+            <div class="col-md-6 mt-2 mb-2 text-center text-white">
+            <h5>Contact Form </h5>
+            </div>
+
+            
+            </div>
+            
+
+            <div class="row mt-6 border mb-5 " >
                
-                <div class="col-md-6 text-secondary " style="text-align: center;">
-                    <h4 class="mt-5">Contact Information</h4>
+                <div class="col-md-6 text-secondary border " style="text-align: center;">
+                    <!-- <h4 class="mt-5">Contact Information</h4> -->
         
-                    <p style="font-size: 15px;">Have any querry! Contact Us.</p>
+                    <p class="mt-5" style="font-size: 15px;">Have any querry! Contact Us.</p>
         
                     <p class="mt-5" style="font-size: 15px; ">Raspberry Solution Pvt. Ltd.</p>
         
@@ -30,17 +44,20 @@
                    <p style="font-size: 15px;"> FOLLOW US</p>
         
                   
-                   <a href="https://www.facebook.com/RaspberrySolution">    <i class="fab fa-facebook-f text-dark
-                         "></i></a>
-                        
+                   <div class="centerdiv ">
+        <a href="https://www.facebook.com/RaspberrySolution.com" target="_blank" >
+            <i class="fa  fa-facebook"></i>
+        </a>
 
-                         <a href="https://www.instagram.com/raspberrysolution/"> <i class="fab fa-instagram text-dark"></i></a>
+        <a href="https://www.instagram.com/raspberrysolution/" target="_blank">
+            <i class="fa   fa-instagram"></i>
+        </a>
 
-                       
-
-
-                  <a href=" https://www.linkedin.com/in/raspberry-solution-recruitment-and-outsourcing-company-in-nepal/"> 
-                  <i class="fab fa-linkedin text-dark"></i></a>
+        <a href="https://www.linkedin.com/in/raspberry-solution-recruitment-and-outsourcing-company-in-nepal/" target="_blank">
+            <i class="fa   fa-linkedin"></i>
+        </a>
+        
+    </div>
         
                   
         
@@ -61,39 +78,44 @@
         
                 <form action="{{url('/email/send')}}" method="post" enctype="multipart/form-data" name="cv" id="cv">
     {{csrf_field()}}
-    
-                        <div class="form-group mt-5 text-secondary" style="font-size: 15px;">
-                            <label for="">Name <span class="text-danger">*</span></label>
+                          <p class="mt-2"style="font-size: 14px;">If you have any query please fill the form below. We will get back to you soon. 
                           
-                          <input type="text" class="form-control" name="nama" placeholder="Enter Your Name" required>
+                          </p>
+
+                          <hr>
                           
-                        </div>
-        
-                        <div class="form-group text-secondary">
-                            <label for="">Email <span class="text-danger">*</span></label>
+                        <div class="form-group  text-secondary" >
+                            <label for="" style="font-size: 14px;">Name <span class="text-danger">*</span></label>
                           
-                          <input type="email" class="form-control" name="email" placeholder="Enter Your Email" required>
+                          <input style="font-size: 14px;" type="text" class="form-control" name="nama" placeholder="Enter Your Name" required>
                           
                         </div>
         
                         <div class="form-group text-secondary">
-                            <label for="">Contact</label>
+                            <label for="" style="font-size: 14px;">Email <span class="text-danger">*</span></label>
                           
-                          <input type="text" class="form-control" name="contact" placeholder="Enter Your Contact" required>
+                          <input type="email" class="form-control" name="email" placeholder="Enter Your Email" style="font-size: 14px;" required>
+                          
+                        </div>
+        
+                        <div class="form-group text-secondary">
+                            <label for="" style="font-size: 14px;">Contact</label>
+                          
+                          <input type="text" class="form-control" name="contact" placeholder="Enter Your Contact" style="font-size: 14px;" required>
                           
                         </div>
                         <div class="form-group text-secondary">
-                            <label for="exampleFormControlTextarea1">Message <span class="text-danger">*</span></label>
-                            <textarea class="form-control" name="messages" rows="6" required></textarea>
+                            <label for="exampleFormControlTextarea1" style="font-size: 14px;">Message <span class="text-danger">*</span></label>
+                            <textarea class="form-control" name="messages" rows="3" required></textarea>
                           </div>
 
 
                          <div class="form-group">
-                         <label for="">Your CV:     </label>
-                         <input type="file" name="image" required/>
+                         <label for="" style="font-size: 14px;">Your CV:     </label>
+                         <input  style="font-size: 14px;" type="file" name="image" required/>
                          </div>
 
-                          <input type="submit"   class="btn text-white" style="background-color: #b8133f;" value="submit"> 
+                          <input type="submit"   class="btn btn-success text-white" style="font-size: 14px;" value="Submit"> 
                         </form>
                            
         
@@ -107,18 +129,7 @@
                 </div>
             </div>
         </div>
-    <!-- <form action="{{url('/email/send')}}" method="post" enctype="multipart/form-data">
-    {{csrf_field()}}
-    
-    <input type="text" name="nama">
-    <input type="email" name="email">
-    <input type="contact" name="contact">
-    <input type="file" name="image">
-    <br>
 
-    <input type="submit" value="submit">
-    
-    </form> -->
   
 
 @endsection

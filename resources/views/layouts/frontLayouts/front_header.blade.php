@@ -5,7 +5,7 @@
                 <!-- navbar logo -->
         
                 <a href="{{url('/')}}" class="navbar-brand py-2 px-3">
-                    <img src="{{asset('img/frontend_images/raspberry logo.jpg') }}" style="height: 48px;" alt="">
+                    <img src="{{asset('img/frontend_images/logo.png') }}" style="height: 48px;" alt="">
                 </a>
         
                 <!-- Collapse button to replace links below 992px wide screen -->

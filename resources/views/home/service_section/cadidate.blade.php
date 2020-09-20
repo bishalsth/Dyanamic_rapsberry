@@ -6,7 +6,7 @@
 <div class="container-fluid bg-light text-dark">
           <div class="row ">
               <div class="col-md-12 mt-5">
-                  <h1 class="text-center">Candidate Assessment</h1>
+                  <h3 class="text-center">Candidate Assessment</h3>
               </div>
             
           </div>
@@ -24,7 +24,7 @@
                   <div class="row mt-5">
                     <div class="col-md-12">
 
-                        <h3><b><u>Description</u></b></h3>
+                        <h5><b><u>Description</u></b></h5>
                         <p style="text-align:justify;">
                             Candidate Assessment is the process by which an employer evaluates individuals when
                             considering them for an open position. The purpose of the report is to provide insights

@@ -3,7 +3,7 @@
 
 
 
-<div class="container">
+<div class="container " >
             <div class="row">
                 <div class="col-md-12 mt-5 mb-5 ">
                     <section >
@@ -15,7 +15,7 @@
             <div class="row mt-6 border mb-5">
                
                 <div class="col-md-6 text-secondary " style="text-align: center;">
-                    <h4 class="mt-5">Contact Information</h4>
+                    <h6 class="mt-5">Contact Information</h6>
         
                     <p style="font-size: 15px;">Have any querry! Contact Us.</p>
         

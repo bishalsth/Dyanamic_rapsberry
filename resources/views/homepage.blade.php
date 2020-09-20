@@ -15,7 +15,8 @@
                             <img class="d-block w-100" src="{{asset('img/frontend_images/images/business-meeting-5395567_1920.jpg') }} "   height="690px" alt="First slide">
                             <div class="carousel-caption" style="color:black; font-family: Impact, Charcoal, sans-serif;">
                                 <h1>Ready to Begin Your journey </h1>
-                                <p>We act as an Employer of Record</p>
+                                <p >We act as an Employer of Record</p>
+                                
                           
                               </div>
                           
@@ -75,9 +76,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <h4 class="text-white mt-0">Who we are?</h4>
+                        <h4 class="text-white mt-0 flash">Who we are?</h4>
                         <hr class="divider light my-4" />
-                        <p class="text-white mb-4" style="text-align: justify; font-size: 15px;">
+                        <p class="text-white mb-4 " style="text-align: justify; font-size: 15px;">
 
                             As Raspberry, a HR and Management Consulting Organization in Nepal provides a wide range of business performance solutions that enable business owners to be more systematic and strategic about the role that people play in the success of a company. Through our flagship, full-service HR solution, we provide everything you need to grow your business, 
                             from large company benefits to payroll processing, while managing employer liability and compliance issues.
@@ -87,6 +88,8 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
 
 
                         </p>
+
+                        <a href="{{url('/about')}}" class="btn text-white" style="background-color:#34840a;"> Read More</a>
                         
                     </div>
                 </div>
@@ -128,7 +131,7 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
         
                        <div class="col-md-4">
                         <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/images/pexels-fauxels-3184292.jpg') }}" height="200px;" alt="Card image cap">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/new/Oursourcing.jpg') }}" height="200px;" alt="Card image cap">
                             <div class="card-body" style="text-align: center;">
                                 <h6 class="text-dark">
                                     Staff Outsourcing Service</h6>
@@ -204,16 +207,16 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
             <div class="row text-center     " >
         
                 <div class="col-md-3 counter-box mt-3  "  >
-                    <div class="icon-box"><i class="fas fa-4x fa-users  mb-4"></i></div>
+                    <div class="icon-box"><i class="  fa fa-4x fa-users  mb-4"></i></div>
 
-                    <!-- <i class="fas fa-people-arrows"></i> -->
+                    
                     <div class="counter" data-target="200">0</div>
                     <p style="font-size: 15px;">Staff Outsourced</p>
                 </div>
         
                 <div class="col-md-3 counter-box mt-3">
                     <!-- fas fa-people-arrows -->
-                    <div class="icon-box"><i class="fas fa-camera fa-4x  mb-4"></i></div>
+                    <div class="icon-box"><i class="fa fa-camera fa-4x  mb-4"></i></div>
                     <div class="counter" data-target="100">0</div>
                     <p style="font-size: 15px;">Cilents Satisfaction</p>
                 </div>
@@ -221,13 +224,16 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
                 <div class="col-md-3 counter-box mt-3">
                     <div class="icon-box">
                         <!-- <i class="fas fa-digging"></i> -->
-                        <i class="fas fa-4x fa-home  mb-4"></i></div>
+                        <i class="fa fa-4x fa-home  mb-4"></i></div>
                     <div class="counter" data-target="100">0</div>
                     <p style="font-size: 15px;">Counseling</p>
                 </div>
         
                 <div class="col-md-3 counter-box mt-3">
-                    <div class="icon-box"><i class="fas fa-4x fa-gem  mb-4"></i></div>
+                    <div class="icon-box">
+                    <!-- <i class="fa fa-address-card"></i> -->
+                    <i class="fa fa-4x fa-address-card  mb-4"></i>
+                    </div>
                     <div class="counter" data-target="100">0</div>
                     <p style="font-size: 15px;"> Recruitment</p>
                 </div>
@@ -235,6 +241,8 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
         
             </div>
         </div>
+
+      
 
         @endsection
 

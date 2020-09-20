@@ -49,10 +49,10 @@
                 <!-- <h2 class="text-white mt-2 text-center">Our Vision</h2> -->
             <div class="row mt-5 mb-5">
 
-                <div class="col-md-6">
+                <div class="col-md-6 wow slideInLeft ">
 
                     <h4 class="mt-5 text-dark "> Our Vision</h4>
-                    <p class="text-dark  wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
+                    <p class="text-dark  "  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
 
 
                         Raspberry is striving to be…..
@@ -66,8 +66,8 @@
 
                         </p>
                 </div>
-                <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/images/vision-2372177_1920.jpg')}}" height="300px" width="100%" alt="">
+                <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
+                    <img src="{{asset('img/frontend_images/vision.jpg')}}" height="300px" width="100%" alt="">
                 </div>
 
             </div>
@@ -84,11 +84,11 @@
                 <!-- <h2 class="text-black mt-2 text-center">Our Mission</h2> -->
             <div class="row mt-5 mb-5">
 
-                <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/new/Our Mission.jpg')}}" height="300px" width="100%" alt="">
+                <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
+                    <img style="filter:brightness(70%);" src="{{asset('img/frontend_images/new/Our Mission.jpg')}}" height="300px" width="100%" alt="">
                 </div>
 
-                <div class="col-md-6 mt-5">
+                <div class="col-md-6 mt-5 wow slideInRight">
                     <h4>Our Mission</h4>
                     <p class="text-black wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
 
@@ -123,7 +123,8 @@
                 <!-- <h2 class="text-white mt-2 text-center">Our Objective</h2> -->
             <div class="row mt-5 mb-5">
 
-                <div class="col-md-6">
+                <div class="col-md-6 wow slideInLeft
+">
 
                     <h4 class="text-dark ">Our Objective</h4>
                     <p class="text-dark  wow zoomInUp"  data-wow-delay="0.3s" style="text-align: justify; font-size:15px;">
@@ -170,7 +171,9 @@
             <div class="row mt-5 mb-5">
 
                 <div class="col-md-6 wow pulse" data-wow-delay="0.5s">
-                    <img src="{{asset('img/frontend_images/new/Our Merits.jpg')}}" height="300px" width="100%" alt="">
+                    <img style="filter:brightness(70%);" src="{{asset('img/frontend_images/new/Our Merits.jpg')}}" height="300px" width="100%" alt="" 
+                    
+                    >
                 </div>
 
                 <div class="col-md-6 mt-1">

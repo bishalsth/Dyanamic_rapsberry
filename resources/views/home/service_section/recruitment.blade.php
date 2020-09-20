@@ -7,7 +7,7 @@
 <div class="container-fluid bg-light text-dark">
           <div class="row ">
               <div class="col-md-12 mt-5">
-                  <h1 class="text-center">Recruitment Services</h1>
+                  <h3 class="text-center">Recruitment Services</h3>
               </div>
             
           </div>
@@ -25,7 +25,7 @@
                   <div class="row mt-5">
                     <div class="col-md-12">
 
-                        <h3><b><u>Description</u></b></h3>
+                        <h5><b><u>Description</u></b></h5>
                         <p style="text-align :justify;">
       
                           

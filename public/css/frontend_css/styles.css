@@ -159,23 +159,20 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  /* color: #f4623a; */
   text-decoration: none;
   background-color: transparent;
 }
-a:hover {
-  color: #d6370c;
-  text-decoration: underline;
-}
 
-a:not([href]) {
+
+/* a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 a:not([href]):hover {
   color: inherit;
   text-decoration: none;
-}
+} */
 
 pre,
 code,
@@ -10233,30 +10230,8 @@ header.masthead h1 {
 #mainNavbar.navbar-dark .navbar-nav .nav-link:hover{color:#FFF;}
 
 
-.social-icon a:hover{
-  color: #FFF !important;
 
-}
 
-.faicon-facebook:hover{
-  background-color: #3B5998 !important;
-}
-
-.faicon-twitter:hover{
-  background-color: #00ACEE !important;
-}
-
-.faicon-instagram:hover{
-  background-color: #EA4C89 !important;
-}
-
-.faicon-linkedin:hover{
-  background-color: #0E76A8 !important;
-}
-
-.faicon-google:hover{
-  background-color: #C8232C !important;
-}
 
 
 .bg_career {
@@ -10289,20 +10264,62 @@ header.masthead h1 {
 }
 
 .dropdown-item:hover{
+  /* transform: scale(1.4); */
   background-color:#bb1545;
 }
-
-
-#fb:hover{
-  background-color: blue;
+.centerdiv{
+  height: 100px;
+  display:flex;
+  justify-content:center;
+  align-items:left;
 }
 
-#insta:hover{
-  background-color: var(--purple);
+.centerdiv a{
+  height: 50px;
+  width:50px;
+  background-color:#f5f6fa;
+  border-radius:50px;
+  text-align: center;
+  margin:10px;
+  line-height:50px;
+  /* box-shadow: 1px 4px 2px 2px #dcdde1; */
+  position: relative;
+  overflow: hidden;
 }
 
-#linki:hover{
-  background-color: #0e76a8;
+.centerdiv a i{
+  transition:all 0.3s linear;
+}
+
+.centerdiv a:hover i{
+  transform: scale(1.4);
+  color:#fff;
+}
+.fa-linkedin{
+  color:#0097e6;
+}
+.fa-intagram{
+  color:#e84393;
 }
 
 
+.centerdiv a:before{
+  content: "";
+  width:120%; height:120%;
+  position:absolute;
+  top:90%;
+   left:-50%;
+   background-color:#00a8ff;
+   transform:rotate(65deg);
+}
+
+.centerdiv a:hover:before{
+  animation: socialicons 0.8s 1;
+  animation-fill-mode:forwards;
+}
+
+@keyframes socialicons {
+  0%{top:90%; left:-50%;  }
+  50%{top:-60%; left: -10%;}
+  100%{top:-10%; left:-10%;} 
+}

@@ -23,7 +23,7 @@
                   <div class="row mt-5">
                     <div class="col-md-12 text-dark">
 
-                        <h3><b><u>Description</u></b></h3>
+                        <h5><b><u>Description</u></b></h5>
                         <p style="text-align: justify;">
                             Counseling Services enables employees to optimize their psychological health so that
                             they may fulfill their job role as individuals and contribute to building healthy
