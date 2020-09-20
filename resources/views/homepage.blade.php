@@ -119,11 +119,11 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
                <div class="container">
                    <div class="row">
                     <div class="col-md-4">
-                        <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/new/Counseling Ser.jpg') }}" height="200px;" alt="Card image cap">
-                            <div class="card-body " style="text-align: center;">
-                                <h6 class="text-dark">Counseling Service</h6>
-                            <a href="{{url('/counseling')}}" class="btn text-white mb-5 " style="background-color:#b8133f; font-size:14px;     ">Read More</a>
+                    <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/images/startup-594090_1920.jpg') }}" height="200px;" alt="Card image cap">
+                            <div class="card-body" style="text-align: center;">
+                                <h6 class="text-dark">Management Consulting</h6>
+                           <a href="{{url('/management')}}" class="btn text-white mb-5" style="background-color:#b8133f; font-size:14px;  ">Read More</a>
                             
                             </div>
                           </div>
@@ -183,11 +183,11 @@ Your challenges multiply as the business grows. At Raspberry, we believe that yo
                        </div>
         
                        <div class="col-md-4">
-                        <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
-                            <img class="card-img-top" src="{{asset('img/frontend_images/images/startup-594090_1920.jpg') }}" height="200px;" alt="Card image cap">
-                            <div class="card-body" style="text-align: center;">
-                                <h6 class="text-dark">Management Consulting</h6>
-                           <a href="{{url('/management')}}" class="btn text-white mb-5" style="background-color:#b8133f; font-size:14px;  ">Read More</a>
+                       <div class="card mt-2 mb-2 ml-2" style="width: 300px; height:330px;">
+                            <img class="card-img-top" src="{{asset('img/frontend_images/new/Counseling Ser.jpg') }}" height="200px;" alt="Card image cap">
+                            <div class="card-body " style="text-align: center;">
+                                <h6 class="text-dark">Counseling Service</h6>
+                            <a href="{{url('/counseling')}}" class="btn text-white mb-5 " style="background-color:#b8133f; font-size:14px;     ">Read More</a>
                             
                             </div>
                           </div>

@@ -41,12 +41,13 @@
         SERVICES
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{url('/counseling')}}">Counseling Service</a>
+        <a class="dropdown-item" href="{{url('/management')}}">Management Consulting</a>
+     
           <a class="dropdown-item" href="{{url('/staff')}}">Staff Outsourcing Service</a>
           <a class="dropdown-item" href="{{url('/recruitment')}}">Recruitment Services</a>
           <a class="dropdown-item" href="{{url('/employee')}}">Employee Record</a>
           <a class="dropdown-item" href="{{url('/candidate')}}">Candidate Assessment</a>
-          <a class="dropdown-item" href="{{url('/management')}}">Management Consulting</a>
+          <a class="dropdown-item" href="{{url('/counseling')}}">Counseling Service</a>
 
           
         </div>
